@@ -7,6 +7,6 @@ app.get('/', function (req, res) {
 
 app.set('port', process.env.PORT || 5000); 
 // process.env.PORT is for heroku to take port automatically
-app.listen(3000, function () {
+app.listen(app.get('port'), function () {
   console.log(`Hacktoberfest helper app listening on port ${app.get('port')}`)
 })
