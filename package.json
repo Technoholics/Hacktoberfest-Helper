@@ -1,0 +1,14 @@
+{
+  "name": "hacktoberfest-helper",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:Technoholics/Hacktoberfest-Helper.git",
+  "author": "Bhavesh S. Gupta <BhaveshSGupta@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
