@@ -1,0 +1,13 @@
+doctype html
+html(lang="en")
+  include head.pug
+  body
+    h1 HacktoberFest Helper
+    #container.col
+    div
+      form(action="/",method="get")
+        if username
+          input#username(type="text", name="username",value= username,placeholder="Enter Username",required,)
+        else
+          input#username(type="text", name="username",placeholder="Enter Username" )
+        button(type="submit") check

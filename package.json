@@ -6,12 +6,17 @@
   "author": "Bhavesh S. Gupta <BhaveshSGupta@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.1"
+    "express": "^4.16.1",
+    "github": "^11.0.0",
+    "pug": "^2.0.0-rc.4"
   },
   "scripts": {
     "start": "node index.js"
   },
   "engines": {
     "node": "7.7.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0"
   }
 }
