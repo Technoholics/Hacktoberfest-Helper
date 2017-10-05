@@ -1,2 +1,2 @@
-NODE_ENV
-github_token
+NODE_ENV=production
+GITHUB_TOKEN=YOUR_TOKEN
